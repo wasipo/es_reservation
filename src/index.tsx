@@ -1,9 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/style.css';
+import Header from './component/header/common_header';
+
+
+
+class App extends React.Component {
+
+    render() {
+        return <div>
+            <div id="fdsafds">
+                ass
+                </div>
+            <Header />
+        </div>
+    }
+
+}
 
 
 
 
 
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
