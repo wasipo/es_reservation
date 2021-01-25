@@ -9,9 +9,6 @@ class App extends React.Component {
 
     render() {
         return <div>
-            <div id="fdsafds">
-                ass
-                </div>
             <Header />
         </div>
     }
